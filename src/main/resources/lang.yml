@@ -1,0 +1,15 @@
+prefix: "&8[&bAxeroFly&8] &r"
+
+messages:
+  no-permission: "&cKamu tidak memiliki izin untuk menggunakan perintah ini!"
+  only-players: "&cPerintah ini hanya dapat dijalankan oleh player!"
+  player-not-found: "&cPlayer tidak ditemukan atau sedang offline!"
+  world-disabled: "&cMode terbang dimatikan di dunia ini!"
+  
+  fly-enabled: "&aMode terbang berhasil &eDIAKTIFKAN&a!"
+  fly-disabled: "&cMode terbang berhasil &eDIMATIKAN&c!"
+  
+  fly-enabled-others: "&aMode terbang untuk &e%player% &aberasil &eDIAKTIFKAN&a!"
+  fly-disabled-others: "&cMode terbang untuk &e%player% &aberasil &eDIMATIKAN&c!"
+  
+  reload-success: "&aKonfigurasi berhasil di-reload!"

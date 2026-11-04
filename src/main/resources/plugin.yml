@@ -1,0 +1,30 @@
+name: AxeroFly
+version: '1.0.0'
+main: me.nozmiiimc.axerofly.AxeroFly
+description: The first plugin in the Make a Minecraft Plugin in 2026 course.
+author: NozmiiiMC
+api-version: '1.20'
+
+commands:
+  fly:
+    description: Toggle mode terbang player.
+    permission: axerofly.fly
+    usage: /fly [player]
+  axerofly:
+    description: Perintah utama AxeroFly.
+    permission: axerofly.admin
+    usage: /axerofly reload
+
+permissions:
+  axerofly.fly:
+    description: Izin menggunakan /fly
+    default: op
+  axerofly.fly.others:
+    description: Izin mengubah mode fly player lain
+    default: op
+  axerofly.admin:
+    description: Izin reload plugin
+    default: op
+  axerofly.bypass:
+    description: Izin bypass batasan dunia (disabled-worlds)
+    default: op

@@ -1,0 +1,4 @@
+# Daftar world di mana perintah /fly tidak bisa digunakan
+disabled-worlds:
+  - world_nether
+  - world_the_end
